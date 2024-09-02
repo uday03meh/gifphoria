@@ -10,7 +10,7 @@ const GifProvider = ({children}) => {
   const [filter, setFilter] = useState("gifs");
   const [favorites, setFavorites] = useState([]);
 
-  const gf = new GiphyFetch(import.meta.env.VITE_GIPHY_KEY);
+  const gf = new GiphyFetch('5drjlt4NRdVFSj0cHJMTEuKsh6bvIMjL');
 
   useEffect(() => {
     const favorites = JSON.parse(localStorage.getItem("favoriteGIFs")) || [];
