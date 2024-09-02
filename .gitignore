@@ -33,4 +33,3 @@ dist/
 
 # TypeScript build artifacts
 *.tsbuildinfo
-.env
